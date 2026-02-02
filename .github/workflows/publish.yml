@@ -11,7 +11,7 @@ jobs:
     strategy:
       matrix:
         node-version: [ 20.x, 22.x, 24.x, 25.x ]
-        platforms: [ ubuntu-latest ]
+        platforms: [ ubuntu-24.04-arm ]
 
     steps:
     - uses: actions/checkout@v6
